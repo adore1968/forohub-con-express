@@ -19,13 +19,13 @@ Mi objetivo con este challenge fue implementar una API REST con las siguientes f
 
 ## Endpoints principales
 
-- `POST /api/auth/register`: Registro de nuevos usuarios.
-- `POST /api/auth/login`: Inicio de sesión y obtención de token JWT.
-- `GET /api/posts`: Obtener todos los posts del foro.
-- `POST /api/posts`: Crear un nuevo post (requiere autenticación).
-- `GET /api/posts/:id`: Obtener un post específico por ID.
-- `PUT /api/posts/:id`: Actualizar un post existente (requiere autenticación).
-- `DELETE /api/posts/:id`: Eliminar un post (requiere autenticación).
+- `POST /api/usuarios/register`: Registro de nuevos usuarios.
+- `POST /api/usuarios/login`: Inicio de sesión y obtención de token JWT.
+- `GET /api/topicos`: Obtener todos los tópicos del foro.
+- `POST /api/topicos`: Crear un nuevo tópico (requiere autenticación).
+- `GET /api/topicos/:id`: Obtener un tópico específico por ID.
+- `PUT /api/topicos/:id`: Actualizar un tópico existente (requiere autenticación).
+- `DELETE /api/topicos/:id`: Eliminar un tópico (requiere autenticación).
 
 ## Consideraciones
 
